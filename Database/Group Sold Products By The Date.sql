@@ -3,4 +3,4 @@ SELECT DISTINCT(sell_date) AS "sell_date",
     GROUP_CONCAT(DISTINCT product ORDER BY product ASC SEPARATOR ',') AS "products"
 FROM Activities
 GROUP BY sell_date
-ORDER BY SELL_DATE ASC
+ORDER BY sell_date ASC
