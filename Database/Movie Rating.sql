@@ -1,4 +1,4 @@
-# Find the name of the people who they have rated the most 
+--Find the name of the people who they have rated the most 
 select people_names as "results"
 from
     (select u.name as "people_names", 
@@ -12,7 +12,7 @@ from
 
 union all
 
-# Find the movie names with the highest average rating in Feb 2020
+--Find the movie names with the highest average rating in Feb 2020
 select movie_names as "results"
 from
     (select m.title as "movie_names",
